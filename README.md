@@ -1,12 +1,12 @@
 # MoodleSchoolFrance
 This is a technical assessment for the development of an educational platform of French origin.
 
-Reference:
+Reference (DAVID SEND TO ME):
 
 ![WhatsApp Image 2023-12-19 at 11 49 45 (1)](https://github.com/Erickhrs/MoodleSchoolFrance/assets/106276135/fe41cad5-dbd3-42fa-85a5-600c417c33c4)
 
 
-MY PROJEC:
+MY PROJECT:
 ![1](https://github.com/Erickhrs/MoodleSchoolFrance/assets/106276135/52db04a1-9ae5-4393-a005-896c5d25df41)
 
 ![2](https://github.com/Erickhrs/MoodleSchoolFrance/assets/106276135/b969c8cb-2f0e-4a80-a6af-d18fee523f97)
