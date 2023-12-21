@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>École Polytechnique  </title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="/files/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <img src="files/logo.PNG" alt="">
+        <ul>
+            <li id="btnlogin">
+                <p>Log In</p>
+            </li>
+            <li id="btncreate">
+                <p><a href="/manutencao.html">Create an Account</a></p>
+            </li>
+        </ul>
+    </header>
+
+    <article id="articles">
+        <article id="container_article1">
+            <article id="article1">
+                <h1>Polytechnique - <br> Entrepreneurship <br><span>Certificate</span></h1>
+                <p>An Entrepreneurship Minor for All Scientific Majors...</p>
+            </article>
+            <article id="article2">
+                <h2>Watching the wolrd <span>differently</span> is already changing the world</h2>
+                <p>(Heisenberg, theoretical physicist)</p>
+                <a href="/manutencao.html"> <button>Read More</button></a>
+            </article>
+        </article>
+        <article id="container_article2">
+            <article id="slides">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="/files/slide1.PNG" alt=""></div>
+                        <div class="swiper-slide"><img src="/files/slide2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="/files/slide3.PNG" alt=""></div>
+                    </div>
+                    <div class="swiper-button-prev" onclick="swiper.slidePrev();"></div>
+                    <div class="swiper-button-next" onclick="swiper.slideNext();"></div>
+                    <div class="swiper-pagination" style="position: relative;
+            top: 1px; --swiper-pagination-progressbar-size: 10px;"></div>
+                </div>
+            </article>
+        </article>
+    </article>
+
+    <footer>
+        <div class="infos1">
+            <p>© École Polytechnique 2023</p>
+            <p>L'ecole Polytechnique, est un membre fondateur de I´Instut Polytechnique de Paris</p>
+        </div>
+        <div class="infos2">
+            <p>Phone: +33 6 32 39 18 33</p>
+            <p>Email: <br> bruno.martinaud@polytechnique.edu</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            init: true,
+            speed: 400,
+            spaceBetween: 100,
+            cssMode: true,
+            loop: true,
+            navigation: {
+                nextEl: "swiper-button-next",
+                prevEl: "swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination"
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+            },
+        });
+        setTimeout(function () {
+            document.body.style.opacity = 1;
+        }, 800);
+    </script>
+</body>
+
+</html>
