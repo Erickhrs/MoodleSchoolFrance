@@ -15,7 +15,7 @@ This is a technical assessment for the development of an educational platform of
 
 
 VIDEO APRESENTATION:
-[![VIDEO](https://i.stack.imgur.com/Vp2cE.png)]([https://drive.google.com/file/d/1b91hcqGw-y8ZQ7TKyigUqv_E5tNxj_v1/view?usp=drive_link]))
+[![VIDEO](https://i.stack.imgur.com/Vp2cE.png)]([https://drive.google.com/file/d/1b91hcqGw-y8ZQ7TKyigUqv_E5tNxj_v1/view?usp=drive_link])
 
 
 
